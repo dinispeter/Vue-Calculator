@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <h1>Calculator in Vue</h1>
+    <hr />
     <Calculator />
   </div>
 </template>
@@ -16,11 +18,18 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+h1 {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
 </style>
+
+
